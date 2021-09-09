@@ -1,2 +1,7 @@
 # VL.LerpX
-Collection of operators to manipulate data
+Collection of operators to manipulate data.
+
+Operator categories:
+- Interpolation
+- Blending
+- Compositing
