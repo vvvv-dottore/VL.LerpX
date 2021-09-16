@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.0.366" Version="0.128">
-  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.0-0366-gc15693d0df" />
+<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.0.393" Version="0.128">
+  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
   <Patch Id="J72u6CBUd6XM3j1pxrkHyj">
     <Canvas Id="OBogDDLg1FnLWtgehpl63O" DefaultCategory="LerpX" CanvasType="FullCategory">
       <Canvas Id="Ny82CVmyP3FMPyJVfHpPj6" Name="Interpolation" Position="260,199">
@@ -5561,7 +5561,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Overlay Id="SsRi5Es3DvRLyY8U8l285x" Name="Common types Registration" Bounds="2327,291,293,819">
+        <Overlay Id="SsRi5Es3DvRLyY8U8l285x" Name="Common types Registration" Bounds="2327,291,326,819">
           <p:ColorIndex p:Type="Int32">7</p:ColorIndex>
         </Overlay>
         <Canvas Id="Pvw6H9BeJYXMHbW9TroeeO" Name="Float32" Position="2371,573">
@@ -7962,6 +7962,288 @@
         <Overlay Id="SsvhAhiKOHuMYHqFcRCKfu" Name="" Bounds="1808,659,464,1020">
           <p:ColorIndex p:Type="Int32">5</p:ColorIndex>
         </Overlay>
+        <Canvas Id="UKru2H3PghxPfvO3XnLsA1" Name="Rectangle" Position="2512,384">
+          <!--
+
+    ************************ Lerp (Advanced) ************************
+
+-->
+          <Node Name="Lerp (Advanced)" Bounds="308,280,321,276" Id="KswHaFoGOBbO4KT1W2eJj5">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+              <Choice Kind="OperationDefinition" Name="Operation" />
+            </p:NodeReference>
+            <Patch Id="Cz4YJHtyhAcMK4F1tPndph">
+              <ControlPoint Id="Mb2uXucGBXbLnAE7QwPDPm" Bounds="579,301" />
+              <Link Id="Ssz2cKwsBs4MNg15xHdwB4" Ids="OPNITWUhUDAMLjsU4bEhRi,Mb2uXucGBXbLnAE7QwPDPm" IsHidden="true" />
+              <ControlPoint Id="Qahvl3ROOKkMTFnyHczgzj" Bounds="322,302" />
+              <Link Id="GVxkVfx4D31OCyCHTGclzZ" Ids="AJuNuvryOwoNASiFcR0cN8,Qahvl3ROOKkMTFnyHczgzj" IsHidden="true" />
+              <ControlPoint Id="NJRXjeHNzxVOB8OagHBn1S" Bounds="486,298" />
+              <Link Id="JHvOROQbWBOLKuj4HHmXfY" Ids="J5AZwbTp9y2NE9aUXOyFlr,NJRXjeHNzxVOB8OagHBn1S" IsHidden="true" />
+              <ControlPoint Id="Uo48edHp7BQMRyFaMm6XSj" Bounds="322,539" />
+              <Link Id="OKMQjM3Wqr1LFxnMqIHuom" Ids="Uo48edHp7BQMRyFaMm6XSj,NhmSJc2MkUnLC9OdZOymXh" IsHidden="true" />
+              <Pin Id="AJuNuvryOwoNASiFcR0cN8" Name="Input" Kind="InputPin" Bounds="-453,1244" />
+              <Pin Id="J5AZwbTp9y2NE9aUXOyFlr" Name="Input 2" Kind="InputPin" Bounds="-297,1242" />
+              <Pin Id="OPNITWUhUDAMLjsU4bEhRi" Name="Scalar" Kind="InputPin" Bounds="-35,1155" />
+              <Pin Id="NhmSJc2MkUnLC9OdZOymXh" Name="Output" Kind="OutputPin" Bounds="-446,1507" />
+              <Node Bounds="320,336,65,26" Id="CxnbUOUST32OZ1cAFk4x3z">
+                <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="RecordType" Name="Rectangle" />
+                  <Choice Kind="OperationCallFlag" Name="Split (Edges)" />
+                </p:NodeReference>
+                <Pin Id="HQAZ2JGy4j7LlZS2BkauUM" Name="Input" Kind="StateInputPin" />
+                <Pin Id="PdOfPnidDffPLzHN8KCc6E" Name="Left" Kind="OutputPin" />
+                <Pin Id="Co1XuxCMGvuM6PbgChgyAq" Name="Right" Kind="OutputPin" />
+                <Pin Id="I4SMpHtkkr8NAhbDFnwFcJ" Name="Top" Kind="OutputPin" />
+                <Pin Id="Ej8EXuFTEztQA5rRKaJIKV" Name="Bottom" Kind="OutputPin" />
+              </Node>
+              <Link Id="EzHpKYvEbtpOTTKC4yfweo" Ids="Qahvl3ROOKkMTFnyHczgzj,HQAZ2JGy4j7LlZS2BkauUM" />
+              <Node Bounds="484,337,65,26" Id="UjhGVHytBRLNq0tM67Oq51">
+                <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="RecordType" Name="Rectangle" />
+                  <Choice Kind="OperationCallFlag" Name="Split (Edges)" />
+                </p:NodeReference>
+                <Pin Id="IN7H6XSps0MLHuGqy0h8sw" Name="Input" Kind="StateInputPin" />
+                <Pin Id="Cm4xYNlo0nRNtolBVYNEAb" Name="Left" Kind="OutputPin" />
+                <Pin Id="GFsK6CzJ36zLF1r0e7ha6R" Name="Right" Kind="OutputPin" />
+                <Pin Id="STysOsBH3jaN6HntilrMM3" Name="Top" Kind="OutputPin" />
+                <Pin Id="Bf2W1rjJOiELdpdbtwD2Z9" Name="Bottom" Kind="OutputPin" />
+              </Node>
+              <Link Id="R4b1TWoV0VPK9ma74SZXaq" Ids="NJRXjeHNzxVOB8OagHBn1S,IN7H6XSps0MLHuGqy0h8sw" />
+              <Node Bounds="320,429,45,19" Id="QBnx6BGwvDXQdx0Xlr2TjN">
+                <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Lerp" />
+                </p:NodeReference>
+                <Pin Id="ISOEoJwbQECPLFbtmrDmaj" Name="Input" Kind="InputPin" />
+                <Pin Id="SpqMeJzy1BwO3Hi3iO5ZER" Name="Input 2" Kind="InputPin" />
+                <Pin Id="KcZhHZiCnOaNQ1UqkOG7vv" Name="Scalar" Kind="InputPin" />
+                <Pin Id="SsTvWtrC6aWLol7QFrTCW6" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Link Id="Di9F7I1Yj9eLOjiGLPHJTS" Ids="PdOfPnidDffPLzHN8KCc6E,ISOEoJwbQECPLFbtmrDmaj" />
+              <Link Id="BpNH6qR7d1INGwBXzj8AMb" Ids="Cm4xYNlo0nRNtolBVYNEAb,SpqMeJzy1BwO3Hi3iO5ZER" />
+              <Link Id="Sveq6Tr6xnXNVBcm2OHdTf" Ids="Mb2uXucGBXbLnAE7QwPDPm,KcZhHZiCnOaNQ1UqkOG7vv" />
+              <Node Bounds="388,429,45,19" Id="S7cx6hVoZ1fOmF1RVimmsH">
+                <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Lerp" />
+                </p:NodeReference>
+                <Pin Id="KXzkX0fTX7KPRlTPJrPgFN" Name="Input" Kind="InputPin" />
+                <Pin Id="UfsLccnB1UsOYxfNqfjy6z" Name="Input 2" Kind="InputPin" />
+                <Pin Id="KT45tlvy15nLFrtzT0o3VE" Name="Scalar" Kind="InputPin" />
+                <Pin Id="Lb8nZc47BzBMdo3xsxF7Ej" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Link Id="J7qzdASnpQhLfwSf5sK7yR" Ids="Co1XuxCMGvuM6PbgChgyAq,KXzkX0fTX7KPRlTPJrPgFN" />
+              <Link Id="UzpAtBGsgCvMgG7wcjaUQP" Ids="GFsK6CzJ36zLF1r0e7ha6R,UfsLccnB1UsOYxfNqfjy6z" />
+              <Link Id="Ny8eXZdr0zFPkX2qFbHzjt" Ids="Mb2uXucGBXbLnAE7QwPDPm,KT45tlvy15nLFrtzT0o3VE" />
+              <Node Bounds="456,429,45,19" Id="Nt2qRCSKYU8PPfcwm13VMB">
+                <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Lerp" />
+                </p:NodeReference>
+                <Pin Id="RsFKn7lECj5Pa1nIfkOgk3" Name="Input" Kind="InputPin" />
+                <Pin Id="BdBidAn1SYgNupBYsqD9qF" Name="Input 2" Kind="InputPin" />
+                <Pin Id="SJpgFGciFlHNflSqiV9uP6" Name="Scalar" Kind="InputPin" />
+                <Pin Id="HihvMKwdSPCMStRJafsepR" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Link Id="LZZLOqGHJJTPZ7yOOk8i5l" Ids="I4SMpHtkkr8NAhbDFnwFcJ,RsFKn7lECj5Pa1nIfkOgk3" />
+              <Link Id="Cr8k2UWauIPLGYOJKlNOPE" Ids="STysOsBH3jaN6HntilrMM3,BdBidAn1SYgNupBYsqD9qF" />
+              <Link Id="S1w8Ipm8DooO9bM2EIWlRS" Ids="Mb2uXucGBXbLnAE7QwPDPm,SJpgFGciFlHNflSqiV9uP6" />
+              <Node Bounds="524,429,45,19" Id="Su4e3Qudn90M9gFlVxhz4b">
+                <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Lerp" />
+                </p:NodeReference>
+                <Pin Id="HS7PR5hI3pMNLaXorHEM4I" Name="Input" Kind="InputPin" />
+                <Pin Id="QJpNmZ6UuXhO5La8pLIoVH" Name="Input 2" Kind="InputPin" />
+                <Pin Id="LzKfbi5vovmM7S3awhnmHW" Name="Scalar" Kind="InputPin" />
+                <Pin Id="PwgPUbRNb2HLunkSxODlvq" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Link Id="McU0El7jvbQNyujFNCXe9O" Ids="Ej8EXuFTEztQA5rRKaJIKV,HS7PR5hI3pMNLaXorHEM4I" />
+              <Link Id="LEF5xF8cDqPNqvuzAwdPhg" Ids="Bf2W1rjJOiELdpdbtwD2Z9,QJpNmZ6UuXhO5La8pLIoVH" />
+              <Link Id="KZP1y8iwqOcLT2OnzPnnNQ" Ids="Mb2uXucGBXbLnAE7QwPDPm,LzKfbi5vovmM7S3awhnmHW" />
+              <Node Bounds="320,484,65,19" Id="R5tpScvQsXPLhFSIQFrSa6">
+                <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Rectangle (Join Edges)" />
+                </p:NodeReference>
+                <Pin Id="Is2DSOreO1yOekxIhj2JGd" Name="Left" Kind="InputPin" />
+                <Pin Id="KOEyYYQdyWbOmfBVoqY3i9" Name="Right" Kind="InputPin" />
+                <Pin Id="GHnmqAVZkTVP6f36cOz5DF" Name="Top" Kind="InputPin" />
+                <Pin Id="RyhNIVhXh8GNLzohRdo5jB" Name="Bottom" Kind="InputPin" />
+                <Pin Id="N29AQHLeRM3QPLXF7p2HOV" Name="Result" Kind="OutputPin" />
+              </Node>
+              <Link Id="SUKifVxjjCmQGY2bygEaTD" Ids="SsTvWtrC6aWLol7QFrTCW6,Is2DSOreO1yOekxIhj2JGd" />
+              <Link Id="OUagcY3gP8PLQ0b1rC3iCK" Ids="Lb8nZc47BzBMdo3xsxF7Ej,KOEyYYQdyWbOmfBVoqY3i9" />
+              <Link Id="UHBDyxI67sfP7uWAyZv68S" Ids="HihvMKwdSPCMStRJafsepR,GHnmqAVZkTVP6f36cOz5DF" />
+              <Link Id="UwkM8rQiiqLOkWLsgkQU2s" Ids="PwgPUbRNb2HLunkSxODlvq,RyhNIVhXh8GNLzohRdo5jB" />
+              <Link Id="KUBsmsKzgHMPgfGOJWeNHV" Ids="N29AQHLeRM3QPLXF7p2HOV,Uo48edHp7BQMRyFaMm6XSj" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ RegisterServices ************************
+
+-->
+          <Node Name="RegisterServices" Bounds="691,312,459,549" Id="OZQ7PFYYPCwQThrfuIb24y">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+              <Choice Kind="OperationDefinition" Name="Operation" />
+            </p:NodeReference>
+            <Patch Id="Ma8RWGAkfbkMem951AJkj9">
+              <Pin Id="AWrUp1zYBNVPKK0MJneoIF" Name="Input" Kind="InputPin">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="IVLFactory" />
+                </p:TypeAnnotation>
+              </Pin>
+              <ControlPoint Id="BhXHeLjiBrhOQInyM4trgz" Bounds="834,376" />
+              <Link Id="Djds4uBn7RpMPNuw6Y4o9G" Ids="AWrUp1zYBNVPKK0MJneoIF,BhXHeLjiBrhOQInyM4trgz" IsHidden="true" />
+              <Node Bounds="832,401,102,80" Id="DCq584DvVLYLcFufJlESLv">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="OperationCallFlag" Name="RegisterStepInterpolation" />
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                </p:NodeReference>
+                <Pin Id="LR590Tz7baVP1FVwZQwA7P" Name="Input" Kind="InputPin" />
+                <Pin Id="VinrjtYnShULq3LpYANdDH" Name="Value" Kind="InputPin" />
+                <Pin Id="HwuvC5Ez8stMzG3SanFk4e" Name="Output" Kind="OutputPin" />
+                <Patch Id="JtYilp7KnhyQRcfnlNkSWd" Name="Interpolator Create" ManuallySortedPins="true">
+                  <Pin Id="DX1ndLjNd0QNt2yN39WWeP" Name="Input" Kind="InputPin" />
+                  <Pin Id="Ey1mCu6XG36OqsK5bQKCDe" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="KSz8gzcDb8KNVJVeq1U91r" Bounds="846,409" />
+                  <ControlPoint Id="Ouyxmr9h1MlNcjvZAye3o9" Bounds="846,474" />
+                  <Node Bounds="844,426,74,26" Id="OSi5pHhptYUMOSg1V9SEJX">
+                    <p:NodeReference LastCategoryFullName="Kairos.Interpolation.StepInterpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="ClassType" Name="StepInterpolation" />
+                      <Choice Kind="OperationCallFlag" Name="Create" />
+                    </p:NodeReference>
+                    <Pin Id="EniUQN4NDoYO2ZkD1JJIUV" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="RlIE0FpZpGBLGKQWWzbtH8" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+              <Link Id="PWHM5PCBh68LUBQlXVrYBC" Ids="DX1ndLjNd0QNt2yN39WWeP,KSz8gzcDb8KNVJVeq1U91r" IsHidden="true" />
+              <Link Id="F65JobPJNePMCwOXh9hGNf" Ids="Ouyxmr9h1MlNcjvZAye3o9,Ey1mCu6XG36OqsK5bQKCDe" IsHidden="true" />
+              <Link Id="DbqbFjRZpIENCdKEMCoeLH" Ids="KSz8gzcDb8KNVJVeq1U91r,EniUQN4NDoYO2ZkD1JJIUV" />
+              <Link Id="G6FzTXD7OWKPbuDftJenqc" Ids="RlIE0FpZpGBLGKQWWzbtH8,Ouyxmr9h1MlNcjvZAye3o9" />
+              <Link Id="QLKYfpvVCibMfzBO7xdw2N" Ids="BhXHeLjiBrhOQInyM4trgz,LR590Tz7baVP1FVwZQwA7P" />
+              <Node Bounds="832,521,108,80" Id="O2xTD3Seeh9MIe7MCyTvWx">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="RegisterLinearInterpolation" />
+                </p:NodeReference>
+                <Pin Id="AVq4wk44fS0PmDzpvnamVR" Name="Input" Kind="InputPin" />
+                <Pin Id="MQz6SbgEIlvN2P2DmBTYfm" Name="Value" Kind="InputPin" />
+                <Pin Id="BsGXT2EXTMJOFUgBWKoqXX" Name="Output" Kind="OutputPin" />
+                <Patch Id="NMxM6H2HFSTPq8WljZJvsd" Name="Interpolator Create" ManuallySortedPins="true">
+                  <Pin Id="AxqOlGvhMCxPU8zTi0zXCq" Name="Input" Kind="InputPin" />
+                  <Pin Id="FrBlR312iFIM8yBSzsGPI3" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="AvloiBESOMXPWby1LVIhCP" Bounds="846,529" />
+                  <ControlPoint Id="QtmoPsrCrLWM5zAHROC5dD" Bounds="846,594" />
+                  <Node Bounds="844,546,80,26" Id="GDBecBa8cZlP3NQVOWlkEu">
+                    <p:NodeReference LastCategoryFullName="Kairos.Interpolation.LinearInterpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="Create" />
+                      <CategoryReference Kind="ClassType" Name="LinearInterpolation" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="EXS0AJtDrEEOMqsYJYg5rh" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="B2qa7g5q73NOofZTO0sEUw" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+              <Link Id="MfUl537yuvyP00tQ27Qdbr" Ids="AxqOlGvhMCxPU8zTi0zXCq,AvloiBESOMXPWby1LVIhCP" IsHidden="true" />
+              <Link Id="CC4DxcTfGbxNLCgqCMjVWj" Ids="QtmoPsrCrLWM5zAHROC5dD,FrBlR312iFIM8yBSzsGPI3" IsHidden="true" />
+              <Link Id="Tj2iQUrppLQNQugVC3Tgqh" Ids="AvloiBESOMXPWby1LVIhCP,EXS0AJtDrEEOMqsYJYg5rh" />
+              <Link Id="Op2dGE4XSC2PYnGzx2T250" Ids="B2qa7g5q73NOofZTO0sEUw,QtmoPsrCrLWM5zAHROC5dD" />
+              <Node Bounds="832,641,109,80" Id="Lj31aYldFsnNFYle5Fiqth">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="RegisterTweenInterpolation" />
+                </p:NodeReference>
+                <Pin Id="DoUD7yBxSWnMDbgCsNnjJN" Name="Input" Kind="InputPin" />
+                <Pin Id="Ky5Tr3i3gxgMbfXKVPn07s" Name="Value" Kind="InputPin" />
+                <Pin Id="UkUaIdmInuNPo5JhQdTybT" Name="Output" Kind="OutputPin" />
+                <Patch Id="F2cBsbqn1cfOjBHq1NXrWK" Name="Interpolator Create" ManuallySortedPins="true">
+                  <Pin Id="Mzgk4vQ0K0BOS5TTCaiG1W" Name="Input" Kind="InputPin" />
+                  <Pin Id="M7ZKrWQ5zqYNJBnmcwwlbI" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="VEdLOlvPrLePz36sDbVpeE" Bounds="846,649" />
+                  <ControlPoint Id="FFPFVyZsTRpQS3D4HzNwKK" Bounds="846,714" />
+                  <Node Bounds="844,666,82,26" Id="PwJw85cP3VrLS4SI8rgCU0">
+                    <p:NodeReference LastCategoryFullName="Kairos.Interpolation.TweenInterpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="Create" />
+                      <CategoryReference Kind="ClassType" Name="TweenInterpolation" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="GoHBybeTe5ZOdgVh1nzHk9" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="T3h9s3mxV7rNqN5TeOBOU1" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+              <Link Id="VYEH7QyVEGLNW66l6Ki7eg" Ids="Mzgk4vQ0K0BOS5TTCaiG1W,VEdLOlvPrLePz36sDbVpeE" IsHidden="true" />
+              <Link Id="RuIsYDNUTI4Ovudg8DEBNi" Ids="FFPFVyZsTRpQS3D4HzNwKK,M7ZKrWQ5zqYNJBnmcwwlbI" IsHidden="true" />
+              <Link Id="C8XZUiZ1v3UOtMp67YWANM" Ids="VEdLOlvPrLePz36sDbVpeE,GoHBybeTe5ZOdgVh1nzHk9" />
+              <Link Id="MMU73QxgC9xMQJVIpVnS2P" Ids="T3h9s3mxV7rNqN5TeOBOU1,FFPFVyZsTRpQS3D4HzNwKK" />
+              <Node Bounds="832,761,108,80" Id="ShqNqM1M5lDQRKetwDQ2RE">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="RegisterBezierInterpolation" />
+                </p:NodeReference>
+                <Pin Id="R5iIfILQBqlL1mEliniCou" Name="Input" Kind="InputPin" />
+                <Pin Id="LA2yRuANlnsNeKHbB17mec" Name="Value" Kind="InputPin" />
+                <Pin Id="Im9d1Em3F24N7dNOxxkAaw" Name="Output" Kind="OutputPin" />
+                <Patch Id="GcOoooUzqxgMAGM4EhnTYz" Name="Interpolator Create" ManuallySortedPins="true">
+                  <Pin Id="KxZR1ixQBuMMHXaqqZZNiS" Name="Input" Kind="InputPin" />
+                  <Pin Id="Mgi4S1w1AIbLGXeFVIiVbX" Name="Result" Kind="OutputPin" />
+                  <ControlPoint Id="OLCLsBTu5BIOvAyo5wO8om" Bounds="846,769" />
+                  <ControlPoint Id="QjKqFgb0ZGgOf318pDrChr" Bounds="846,834" />
+                  <Node Bounds="844,786,80,26" Id="GpK3HRekcMKMZhJtzn5qO0">
+                    <p:NodeReference LastCategoryFullName="Kairos.Interpolation.BezierInterpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="Create" />
+                      <CategoryReference Kind="ClassType" Name="BezierInterpolation" NeedsToBeDirectParent="true" />
+                    </p:NodeReference>
+                    <Pin Id="F8AuVuYQi65MijVNn0jo3e" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="QuyXPy8c6SrPQmbTTJS8Xv" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                </Patch>
+              </Node>
+              <Link Id="FzpgK6xGQ9fOmLKNZVjqXj" Ids="KxZR1ixQBuMMHXaqqZZNiS,OLCLsBTu5BIOvAyo5wO8om" IsHidden="true" />
+              <Link Id="NoakNK46fVMNG9JfGN1Wek" Ids="QjKqFgb0ZGgOf318pDrChr,Mgi4S1w1AIbLGXeFVIiVbX" IsHidden="true" />
+              <Link Id="Q934so68eASMybcje2x68b" Ids="OLCLsBTu5BIOvAyo5wO8om,F8AuVuYQi65MijVNn0jo3e" />
+              <Link Id="LmT0S0IijeBNma7P8KLFJH" Ids="QuyXPy8c6SrPQmbTTJS8Xv,QjKqFgb0ZGgOf318pDrChr" />
+              <Link Id="UytoNf6d4WDNuabbMtJ0il" Ids="HwuvC5Ez8stMzG3SanFk4e,AVq4wk44fS0PmDzpvnamVR" />
+              <Link Id="GiFCdwe8tN0ORBpZNvZWZC" Ids="BsGXT2EXTMJOFUgBWKoqXX,DoUD7yBxSWnMDbgCsNnjJN" />
+              <Link Id="NV2A92MZD0tLvVathRgHcp" Ids="UkUaIdmInuNPo5JhQdTybT,R5iIfILQBqlL1mEliniCou" />
+              <ControlPoint Id="DxvOWdMyoXKNRNNdqsrnQ1" Bounds="997,459" />
+              <Link Id="UAzjnyPPKPFMHpxwB0ma0J" Ids="AWrUp1zYBNVPKK0MJneoIF,DxvOWdMyoXKNRNNdqsrnQ1" IsHidden="true" />
+              <Node Bounds="995,484,143,19" Id="LSw5uTf5SuZNFSrCrYaNy8">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="RegisterInterpolationService" />
+                </p:NodeReference>
+                <Pin Id="PFR1d2RrRysLpbwmksMEXG" Name="Input" Kind="InputPin" />
+                <Pin Id="Uzp3XBvHuHELCQJDyRj9Iz" Name="Value" Kind="InputPin" />
+                <Pin Id="Iv4AEYrBuUNPnT0vyi3gqA" Name="Output" Kind="OutputPin" />
+              </Node>
+              <Link Id="APZyU8PCCorMdPTimFVywZ" Ids="DxvOWdMyoXKNRNNdqsrnQ1,PFR1d2RrRysLpbwmksMEXG" />
+              <Node Bounds="1006,335,61,19" Id="K3iLhOny5SnP1ubYHUArYi">
+                <p:NodeReference LastCategoryFullName="2D.Rectangle" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Rectangle (Join)" />
+                </p:NodeReference>
+                <Pin Id="KjcmImwxcloNE7ZbT2aSOj" Name="Position" Kind="InputPin" />
+                <Pin Id="ED84denbPpALgZjDZAUpsS" Name="Size" Kind="InputPin" />
+                <Pin Id="Tdk5ahp8gReP2NrCc95IM2" Name="Anchor" Kind="InputPin" />
+                <Pin Id="KkNpnH64Cg4Or6nmeIzFWB" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Link Id="DKHpIDJ1OIRO4HHstKgdLR" Ids="KkNpnH64Cg4Or6nmeIzFWB,VinrjtYnShULq3LpYANdDH" />
+              <Link Id="Iojh7f9gxifOqxBRU8Xhkx" Ids="KkNpnH64Cg4Or6nmeIzFWB,MQz6SbgEIlvN2P2DmBTYfm" />
+              <Link Id="EX5KoQiXD9GPBoeB189ZoO" Ids="KkNpnH64Cg4Or6nmeIzFWB,Ky5Tr3i3gxgMbfXKVPn07s" />
+              <Link Id="STGJ3PznHsvPB4AOsC72Fr" Ids="KkNpnH64Cg4Or6nmeIzFWB,LA2yRuANlnsNeKHbB17mec" />
+              <Link Id="Imxcf2Ln5ciL9KWRLOczi5" Ids="KkNpnH64Cg4Or6nmeIzFWB,Uzp3XBvHuHELCQJDyRj9Iz" />
+            </Patch>
+          </Node>
+        </Canvas>
       </Canvas>
       <Canvas Id="IZs68JMHz12Mi2VUe63eAQ" Name="Blending" Position="260,256">
         <!--
@@ -22719,5 +23001,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.0-0366-gc15693d0df" />
+  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
 </Document>
