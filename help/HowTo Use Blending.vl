@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="FaF2rf2afq2L7MeXk93EnW" LanguageVersion="2021.4.0.366" Version="0.128">
-  <NugetDependency Id="NJDyJEkyxtmNwaPzdlhufC" Location="VL.CoreLib" Version="2021.4.0-0366-gc15693d0df" />
+<Document xmlns:p="property" Id="FaF2rf2afq2L7MeXk93EnW" LanguageVersion="2021.4.0.393" Version="0.128">
+  <NugetDependency Id="NJDyJEkyxtmNwaPzdlhufC" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
   <Patch Id="Qww1PTrHfnEPGAExIEyJ9a">
     <Canvas Id="ItuwRfauil9OvNvhGrult0" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="CjSliAhnRhwPOhqOlqK8r4">
         <Canvas Id="Eu9XEk3Gn7hOQfSkMQGqEP" CanvasType="Group">
-          <Node Bounds="255,723,45,19" Id="IKuTkUaNmi1ONE17tKOa0q">
+          <Node Bounds="107,767,45,19" Id="IKuTkUaNmi1ONE17tKOa0q">
             <p:NodeReference LastCategoryFullName="LerpX.Blending" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Blend" />
@@ -28,7 +28,7 @@
             <Pin Id="JMQ7YQKJ1rwN134n6dKmNn" Name="Found" Kind="OutputPin" />
             <Pin Id="DR6JikmYd8xOVg3lIWjQVR" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="318,200,120,19" Id="K8pk0ApmCkjOQ5GFbt6F7R">
+          <Node Bounds="170,269,120,19" Id="K8pk0ApmCkjOQ5GFbt6F7R">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -38,7 +38,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="GnszjmuacRqOadWfrH3rAR" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="348,234,133,19" Id="VWS0gmF5jtVOaI77Rna9o7">
+          <Node Bounds="200,303,133,19" Id="VWS0gmF5jtVOaI77Rna9o7">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -48,7 +48,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="R6XytoVqbTHO86aBjlVAT9" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="378,268,120,19" Id="LSHBiidOG6BPY6Vm6YChmI">
+          <Node Bounds="230,337,120,19" Id="LSHBiidOG6BPY6Vm6YChmI">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -58,7 +58,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="OR2AAbqWGntMgZRdA9Oqdl" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="408,302,120,19" Id="MyzihvLyIr6MnGZvLMx9tV">
+          <Node Bounds="260,371,120,19" Id="MyzihvLyIr6MnGZvLMx9tV">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -68,7 +68,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="NSeGOs6eQy8OstciG7Tv0s" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="438,336,120,19" Id="N9tfPIOBdTbLUoOZGISoZR">
+          <Node Bounds="290,405,120,19" Id="N9tfPIOBdTbLUoOZGISoZR">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -78,7 +78,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="AISBqVrmag5LEkMNYxpWhr" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="468,370,120,19" Id="FvnEMXEx14PNgNR9OoImZr">
+          <Node Bounds="320,439,120,19" Id="FvnEMXEx14PNgNR9OoImZr">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -88,7 +88,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="KpREGi9vyUJM4ClxPmQIxm" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="498,404,130,19" Id="TCjIS6EQN6EOMmX69OlV0A">
+          <Node Bounds="350,473,130,19" Id="TCjIS6EQN6EOMmX69OlV0A">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -98,7 +98,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="GQooKDYDvUvMAz8HbgDTNV" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="288,166,120,19" Id="SGRLPLXnBNCMCmSH63r4Qh">
+          <Node Bounds="140,235,120,19" Id="SGRLPLXnBNCMCmSH63r4Qh">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -108,7 +108,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="KPrqrknwkvfPTFEhXSvtNh" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="528,438,120,19" Id="FJBTx666vygPLvtFCwSq2v">
+          <Node Bounds="380,507,120,19" Id="FJBTx666vygPLvtFCwSq2v">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -118,7 +118,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="G8gMkTJEFAjNndC3Fz3Y8r" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="558,472,120,19" Id="EMDP8o7WEXiQFhq9fX6opg">
+          <Node Bounds="410,541,120,19" Id="EMDP8o7WEXiQFhq9fX6opg">
             <p:NodeReference LastCategoryFullName="LerpX.Blending.Model" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Blending" />
@@ -128,7 +128,7 @@
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="Ea8Up0rCtqGP7owD8TGxHi" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Node Bounds="256,530,307,19" Id="GiHt8E3xmkNPg4FU4M00PE">
+          <Node Bounds="108,599,307,19" Id="GiHt8E3xmkNPg4FU4M00PE">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Switch" />
@@ -147,7 +147,7 @@
             <Pin Id="OYlYxZscpn0NNNbErfSrV8" Name="Input 9" Kind="InputPin" />
             <Pin Id="OWSVhZnB2iyOHBVK822Lij" Name="Input 10" Kind="InputPin" />
           </Node>
-          <Pad Id="OluagcyLMYCP4z3gZxfTAq" Comment="Index" Bounds="189,474,35,37" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="OluagcyLMYCP4z3gZxfTAq" Comment="Index" Bounds="47,483,35,37" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -155,19 +155,18 @@
               <p:fontsize p:Type="Int32">18</p:fontsize>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ce4wFRcszIRNSJhjyS1OUO" Comment="Background" Bounds="277,656,136,15" ShowValueBox="true" isIOBox="true" Value="0.4999998, 0.4999998, 0.4999998, 1">
+          <Pad Id="Ce4wFRcszIRNSJhjyS1OUO" Comment="Background" Bounds="129,666,44,26" ShowValueBox="true" isIOBox="true" Value="0.4999998, 0.4999998, 0.4999998, 1">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="RGBA" />
               <FullNameCategoryReference ID="Color" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RJujU0lzs5OQaSVNXJwxoN" Comment="" Bounds="297,690,136,15" ShowValueBox="true" isIOBox="true" Value="0, 0.3300002, 0.2309987, 1">
+          <Pad Id="RJujU0lzs5OQaSVNXJwxoN" Comment="" Bounds="149,714,44,26" ShowValueBox="true" isIOBox="true" Value="0, 0.3300002, 0.2309987, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="MhWOPTWRAU9LoocjXVxzKz" Comment="" Bounds="297,776,136,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="555,723,45,19" Id="NCQYUINZOpUP2e5uAsH84O">
+          <Node Bounds="279,767,45,19" Id="NCQYUINZOpUP2e5uAsH84O">
             <p:NodeReference LastCategoryFullName="LerpX.Blending" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Blend" />
@@ -179,7 +178,7 @@
             <Pin Id="AdNFjTOMNLEOEUFeNKmXVC" Name="Found" Kind="OutputPin" />
             <Pin Id="NUMMsEYBVEJOwycGuCU4zR" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="750,723,45,19" Id="NYxee4dP3SxMR9nAhO2GWd">
+          <Node Bounds="452,767,45,19" Id="NYxee4dP3SxMR9nAhO2GWd">
             <p:NodeReference LastCategoryFullName="LerpX.Blending" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Blend" />
@@ -191,7 +190,7 @@
             <Pin Id="Kc3UDfVUiqFLH1r8s95p7I" Name="Found" Kind="OutputPin" />
             <Pin Id="MXwVZZBcblVOE9CuX3XJ3l" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="945,723,45,19" Id="TgZda0DThTKNjVbnCAJsJe">
+          <Node Bounds="587,767,45,19" Id="TgZda0DThTKNjVbnCAJsJe">
             <p:NodeReference LastCategoryFullName="LerpX.Blending" LastSymbolSource="VL.LerpX.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Blend" />
@@ -203,13 +202,13 @@
             <Pin Id="KNhkLYJz3oLPyJmJuadS8h" Name="Found" Kind="OutputPin" />
             <Pin Id="SMnl6MdKq8VPqX1WuVksoZ" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="VsAGOQJQil1NqfhpkH2JCX" Comment="Background" Bounds="578,625,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+          <Pad Id="VsAGOQJQil1NqfhpkH2JCX" Comment="Background" Bounds="302,666,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Float32" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="595,652,45,19" Id="BJjb2HFZ7sELdKPzrdZjG5">
+          <Node Bounds="319,714,45,19" Id="BJjb2HFZ7sELdKPzrdZjG5">
             <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LFO" />
@@ -221,7 +220,7 @@
             <Pin Id="IXzFCxbrItFLtG9mn9cEGC" Name="On New Cycle" Kind="OutputPin" />
             <Pin Id="JrjYUw205bcMd4axBmKCF2" Name="Cycles" Kind="OutputPin" />
           </Node>
-          <Pad Id="PpZTlgvLFw4QcIUndy3ljI" Comment="" Bounds="597,768,41,25" ShowValueBox="true" isIOBox="true">
+          <Pad Id="PpZTlgvLFw4QcIUndy3ljI" Comment="" Bounds="321,817,41,25" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maximum p:Type="Single">1</p:maximum>
               <p:minimum p:Type="Single">0</p:minimum>
@@ -229,39 +228,57 @@
               <p:sliderdirection p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.SliderDirectionEnum">Vertical</p:sliderdirection>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="Ku942syRdA8ObnwxTlXpDN" Comment="" Bounds="612,690,35,15" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="KmWH6KAHI8dLCkNmBXk18C" Comment="Background" Bounds="772,635,35,28" ShowValueBox="true" isIOBox="true" Value="-1, 0">
+          <Pad Id="Ku942syRdA8ObnwxTlXpDN" Comment="" Bounds="336,752,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="KmWH6KAHI8dLCkNmBXk18C" Comment="Background" Bounds="474,666,35,28" ShowValueBox="true" isIOBox="true" Value="-1, 0">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Vector2" />
               <FullNameCategoryReference ID="2D" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Ohc82ajwzvmPjhnNxDaVvs" Comment="" Bounds="792,675,35,28" ShowValueBox="true" isIOBox="true" Value="0.1, 0.5">
+          <Pad Id="Ohc82ajwzvmPjhnNxDaVvs" Comment="" Bounds="494,714,35,28" ShowValueBox="true" isIOBox="true" Value="0.1, 0.5">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="GbyXcpcPuglNXn7oIR39Z9" Comment="" Bounds="792,774,35,28" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="DohTsUI5IamLXoBfFjg2qy" Comment="Background" Bounds="967,642,35,15" ShowValueBox="true" isIOBox="true" Value="10">
+          <Pad Id="GbyXcpcPuglNXn7oIR39Z9" Comment="" Bounds="494,817,35,28" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="DohTsUI5IamLXoBfFjg2qy" Comment="Background" Bounds="609,666,35,15" ShowValueBox="true" isIOBox="true" Value="10">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Integer32" />
               <FullNameCategoryReference ID="Primitive" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FJrOvWOIJSvNFNRmLgt4Zf" Comment="" Bounds="987,682,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+          <Pad Id="FJrOvWOIJSvNFNRmLgt4Zf" Comment="" Bounds="629,714,35,15" ShowValueBox="true" isIOBox="true" Value="2">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Calb469KPBJNOaWHSptyou" Comment="" Bounds="987,773,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Calb469KPBJNOaWHSptyou" Comment="" Bounds="629,817,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="SOdT7EDUmabQDMWnE7WLdZ" Bounds="80,96,217,31" ShowValueBox="true" isIOBox="true" Value="How to use Blending">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="AYiqp1acSGsMe8wZ4E9n4t" Bounds="80,141,496,69" ShowValueBox="true" isIOBox="true" Value="Blending allows you to blend a &quot;Background&quot; value with another value of the same type, using a specific blending model. You can see them all in this patch, simply change the Switch's Index pin to explore them.">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GnJfkR6POCGPvgTEDmZxAe" Comment="" Bounds="149,817,44,26" ShowValueBox="true" isIOBox="true" Value="0, 0.3300002, 0.2309987, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="VQZYVpdszcmL9fHX3cH9Ea" Name="Create" />
         <Patch Id="IkZGmw8SsL3OarvvQFhV9j" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="SoIw7aYtaV3QdbMYk8Ef5i">
           <Fragment Id="R69zkM6nAcWPtrzqvl1eUd" Patch="VQZYVpdszcmL9fHX3cH9Ea" Enabled="true" />
           <Fragment Id="FRVpODaSEvgNRvVCM2YtcA" Patch="IkZGmw8SsL3OarvvQFhV9j" Enabled="true" />
@@ -280,7 +297,6 @@
         <Link Id="QNdTPGVgGzNMZkHvHJrIne" Ids="OluagcyLMYCP4z3gZxfTAq,NEIs4k2vO8hQXfdYbUw3oY" />
         <Link Id="EyeS6PPkarEQbxDdnTD8Z5" Ids="Ce4wFRcszIRNSJhjyS1OUO,TqhCk0q8sWIP7ePcITqvtg" />
         <Link Id="JghSBlrDXTXOe6lMraVBf9" Ids="RJujU0lzs5OQaSVNXJwxoN,T4yu0XDZrU4QD8Jkso5dkw" />
-        <Link Id="RO4DKMX9awxOqs6vV5KGH8" Ids="DR6JikmYd8xOVg3lIWjQVR,MhWOPTWRAU9LoocjXVxzKz" />
         <Link Id="QA6AAJRqch8QRt9jFZNnKx" Ids="NaFoApeKhJqLXtKD7FsjGe,OOeYEge5IttMzzsZIArcpe" />
         <Link Id="DJ8NMyUEMoDOGBBlmr5YQs" Ids="NaFoApeKhJqLXtKD7FsjGe,AHr0Mb7HGt3LeI0KL6FcH3" />
         <Link Id="QIXoyUmuuK2OdAbDS3oyan" Ids="NaFoApeKhJqLXtKD7FsjGe,UHhdpFtmP20Pv44EUgQAtm" />
@@ -294,9 +310,10 @@
         <Link Id="Vm5tS1ACnmkNNtRQq7xSu6" Ids="DohTsUI5IamLXoBfFjg2qy,EGftsefKlqoNIW8JLmQ4qN" />
         <Link Id="OewaMc4p7wKLxTpLX1zyGf" Ids="FJrOvWOIJSvNFNRmLgt4Zf,EPeQGniAogmNWqWoWCFp76" />
         <Link Id="P1ra6jHK2VhLq3uKELeXkO" Ids="SMnl6MdKq8VPqX1WuVksoZ,Calb469KPBJNOaWHSptyou" />
+        <Link Id="VVkpM1KnreMLXJWNMr6Vmk" Ids="DR6JikmYd8xOVg3lIWjQVR,GnJfkR6POCGPvgTEDmZxAe" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="VWmjRDfDZTYO1eOUqlt0pk" Location="VL.CoreLib" Version="2021.4.0-0366-gc15693d0df" />
+  <NugetDependency Id="VWmjRDfDZTYO1eOUqlt0pk" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
   <NugetDependency Id="J3mfZs319Z3O5RPL3KLIf2" Location="VL.LerpX" Version="0.0.0.0" />
 </Document>
