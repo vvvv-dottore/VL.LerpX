@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.0.393" Version="0.128">
-  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
+<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.0.394" Version="0.128">
+  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.0-0394-gcefddcf14d" />
   <Patch Id="J72u6CBUd6XM3j1pxrkHyj">
     <Canvas Id="OBogDDLg1FnLWtgehpl63O" DefaultCategory="LerpX" CanvasType="FullCategory">
       <Canvas Id="Ny82CVmyP3FMPyJVfHpPj6" Name="Interpolation" Position="260,199">
@@ -7965,10 +7965,10 @@
         <Canvas Id="UKru2H3PghxPfvO3XnLsA1" Name="Rectangle" Position="2512,384">
           <!--
 
-    ************************ Lerp (Advanced) ************************
+    ************************ Lerp (Internal) ************************
 
 -->
-          <Node Name="Lerp (Advanced)" Bounds="308,280,321,276" Id="KswHaFoGOBbO4KT1W2eJj5">
+          <Node Name="Lerp (Internal)" Bounds="308,280,321,276" Id="KswHaFoGOBbO4KT1W2eJj5">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
               <Choice Kind="OperationDefinition" Name="Operation" />
             </p:NodeReference>
@@ -23001,5 +23001,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.0-0393-gf5a4aa0dd0" />
+  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.0-0394-gcefddcf14d" />
 </Document>
