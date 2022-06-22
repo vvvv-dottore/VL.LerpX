@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.9.982" Version="0.128">
-  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.9" />
+<Document xmlns:p="property" Id="Hatf0vcG0RkNzMrtWROKa9" LanguageVersion="2021.4.10.1007" Version="0.128">
+  <NugetDependency Id="BZkLOr6Y2pBQIlITFCvvl7" Location="VL.CoreLib" Version="2021.4.10-1007-g66c84f8e50" />
   <Patch Id="J72u6CBUd6XM3j1pxrkHyj">
     <Canvas Id="OBogDDLg1FnLWtgehpl63O" DefaultCategory="LerpX" CanvasType="FullCategory">
       <Canvas Id="Ny82CVmyP3FMPyJVfHpPj6" Name="Interpolation" Position="260,199">
@@ -19664,7 +19664,7 @@
                       <Patch Id="JMzenMiLdseP37HhmcZ6Bt" Name="Dispose" ManuallySortedPins="true" />
                       <Pad Id="Ova7YeUXR0gMKYV124ZqiN" Bounds="613,709" />
                       <Node Bounds="573,666,119,19" Id="QIwjsmv7B7gNjLUNHHDT23">
-                        <p:NodeReference LastCategoryFullName="Kairos.Compositing" LastSymbolSource="VL.Kairos.Compositing.vl">
+                        <p:NodeReference>
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessAppFlag" Name="Compose" />
                         </p:NodeReference>
@@ -21735,7 +21735,11 @@
                 <Pin Id="PE4Xs5iPDqEMEnfwITu941" Name="Interpolation Service Found" Kind="OutputPin" />
               </Patch>
               <Patch Id="IQWuuRSN1q1QEqH5gayxf5" Name="SetBlendingModel" ManuallySortedPins="true">
-                <Pin Id="CKWiUeYwDhBLe3uOYqmuXo" Name="Value Blending Model" Kind="InputPin" />
+                <Pin Id="CKWiUeYwDhBLe3uOYqmuXo" Name="Value Blending Model" Kind="InputPin">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="IBlendingModel" />
+                  </p:TypeAnnotation>
+                </Pin>
               </Patch>
               <Patch Id="KvY3rGKD3FwLVGkHuln6iT" Name="GetBlendingServiceFound" ParticipatingElements="DWjl4aApvjgP9W8b13npn5">
                 <Pin Id="OSKnz691EtxOoatHDZgcPc" Name="Blending Service Found" Kind="OutputPin" />
@@ -23019,5 +23023,5 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.9" />
+  <NugetDependency Id="MEqGjnAxdnCLGn42yhcs6m" Location="VL.CoreLib" Version="2021.4.10-1007-g66c84f8e50" />
 </Document>
