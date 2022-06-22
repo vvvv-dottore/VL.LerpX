@@ -15244,8 +15244,8 @@
                 <Pin Id="NJw99jBBOPLM8OveNt5EZ3" Name="Alpha" Kind="OutputPin" />
               </Node>
               <Link Id="S9ZsCseIFGhOwoh8jIoaTS" Ids="I41ybk5mrQeNabAumJdBe6,UEE4ydMJXGfLb7Hp66b8Ag" />
-              <Link Id="RFqxvWDyWLkOdk4O0AUzle" Ids="QjhGb8sInQILhEzOk1fooO,GTMuC3avukWPqc3E26SnNR" />
               <Link Id="I6lbqu7R9QRNU525Yr2zlW" Ids="NJw99jBBOPLM8OveNt5EZ3,UWk35tZHqRONUYgBxyOITk" />
+              <Link Id="AyXKhsyNeBYMquXSWpttZM" Ids="QjhGb8sInQILhEzOk1fooO,GTMuC3avukWPqc3E26SnNR" />
             </Patch>
           </Node>
           <!--
@@ -20714,7 +20714,7 @@
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <FullNameCategoryReference ID="Primitive" />
                 </p:NodeReference>
-                <Pin Id="BrGLk9uVEIwM50RVjQqRW8" Name="Force" Kind="InputPin" />
+                <Pin Id="BrGLk9uVEIwM50RVjQqRW8" Name="Force" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="Cjp1INhOVBwPoTeMZDbddG" Name="Dispose Cached Outputs" Kind="InputPin" />
                 <Pin Id="KAXk4lDDJG9OP1876hMvE3" Name="Has Changed" Kind="OutputPin" />
                 <ControlPoint Id="CucCDsi6iI4OlSB0qYhoUO" Bounds="940,382" Alignment="Top" />
@@ -21558,13 +21558,6 @@
                     </Node>
                   </Patch>
                 </Node>
-                <ControlPoint Id="F6qTXks9YyxL1Ha3MS8L8k" Bounds="1231,262" />
-                <Overlay Id="AlKTKjdKr75LG8jUkXGWiF" Name="Set Transparency Model" Bounds="543,195,261,116">
-                  <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
-                </Overlay>
-                <Overlay Id="TbrOMsG022cN5uxoIZenDV" Name="Set Blending Model" Bounds="1188,195,231,120">
-                  <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
-                </Overlay>
                 <Pad Id="Eg2GI6sSufgNKOl9fcwVT1" SlotId="HWFcihXm6DKQDHi9TExwQd" Bounds="1174,801" />
                 <Pad Id="EpNvT7YdQjTPoBmZNcmAj5" SlotId="PJRatSD63tjOT1ofCbQlQX" Bounds="1222,770" />
                 <Pad Id="CCLBuWGJNPcMgd1gcH2y4s" SlotId="VElJukQdZupNaPcdqQPvez" Bounds="1093,680" />
@@ -21660,7 +21653,28 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <ControlPoint Id="RYS3CDKCibJOlsiOh9Xmtb" Bounds="584,260" />
+                <Overlay Id="AhCObK09u0bLOexyOBdHWQ" Name="Set model" Bounds="675,103,176,187">
+                  <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
+                </Overlay>
+                <Pad Id="V1XZ4W5WnZANC1uVfLSfpJ" SlotId="Llkfpupcx04QKIXbgq18ap" Bounds="755,208" />
+                <ControlPoint Id="CKxsVgMDLNKMKzxdniqljQ" Bounds="755,161" />
+                <ControlPoint Id="GvuSsMNm0eYOGpkGMujMzp" Bounds="755,252" />
+                <Node Bounds="448,302,145,26" Id="I6lX1GE1Me3LAoeT1akIRd">
+                  <p:NodeReference LastCategoryFullName="LerpX.Compositing.CompositionModel" LastSymbolSource="VL.LerpX.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="GetValueTransparencyModel" />
+                  </p:NodeReference>
+                  <Pin Id="Sq0Y8tSJ1ucNwCpbD73F3V" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="TlpuEonvFuQQTebNKHFlCV" Name="Value Transparency Model" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="1095,305,124,26" Id="SIUYy66oVy1MmiZziMemn6">
+                  <p:NodeReference LastCategoryFullName="LerpX.Compositing.CompositingModel" LastSymbolSource="VL.LerpX.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="GetValueBlendingModel" />
+                  </p:NodeReference>
+                  <Pin Id="FZ4ktVqAgGRL0yQzmn3Ld8" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="UZ99HFPEMwPQZceVFcoNCD" Name="Value Blending Model" Kind="OutputPin" />
+                </Node>
               </Canvas>
               <Link Id="U6d4Z333sGPLH32bAjFnXU" Ids="NthUGKeUTrSOlfq0zQCOSR,TOhINsy9n4jN4CfvBIA2H4" IsHidden="true" />
               <Link Id="EgCaW38EtiSN1lFFoVR2fX" Ids="TbenBOqB8LYOfOANqLgaT3,TcEk9Nqz0X7M2fpESknOIn" />
@@ -21684,10 +21698,8 @@
               <Link Id="AA5ZTFwf0gOLKSZkQVztDs" Ids="B0rs6IU17mSMJXWw2vPXT3,MZgsGUzfYPQOUsN7uwxwxG" />
               <Link Id="OiI062ghG3nNzBpXjYXYSd" Ids="KjMnr31cAe7MU5GjpTixVd,BUDrft3y3H4L3basDa6Mju" IsHidden="true" />
               <Link Id="SXrDgioAwLiPxfLd3qzxje" Ids="AT9YOfUIduVNxcXKP5qLzN,DPnx0n2HVyLPDymJVo70iL" />
-              <Link Id="EOsjdHEWo2mQJ6gKlzBygy" Ids="F6qTXks9YyxL1Ha3MS8L8k,NWSvzVYIMFGMcEtkwCmk2r" />
               <Link Id="AIGCkDOZEKXQDEkz5S6MyV" Ids="BhNK9JPkzjQNNKj6YHKE7R,KjMnr31cAe7MU5GjpTixVd" />
               <Link Id="Fb6pPXwf1lYNwC27ReFCn0" Ids="AlTPsxWve8HOarFyHcRK3X,HBcAW9HQhtJQT0QXih3QRZ" />
-              <Link Id="IL06HRI78hTNM1jHGc7Kh6" Ids="CKWiUeYwDhBLe3uOYqmuXo,F6qTXks9YyxL1Ha3MS8L8k" IsHidden="true" />
               <Link Id="I0OHEBAKx3aNVHvIdGLy8l" Ids="Dk7dqqcu9JWOTwTrU7mas7,SZjJU3EJTeeL7TXc12FHYG" IsHidden="true" />
               <Link Id="CPhhOolf8MZM7Iu6Zl1ykT" Ids="SRMfAkfg6WeOG7mvZW4zBI,PzsPCiQYThAMMj6uppLAh3" IsHidden="true" />
               <Link Id="J2jVBoiTabHPXdCiVQjzyD" Ids="BDy8O5cDqOsMHkSNu1mpyD,TbenBOqB8LYOfOANqLgaT3" IsHidden="true" />
@@ -21708,17 +21720,15 @@
               <Link Id="E6YiAiq1tozO2mspAa0dDP" Ids="VD6IwzIw7TdNZEwCNu8nZ2,MKCT64pDx13M4xEc3gB9jh" />
               <Link Id="KBpIEcvO0anMFwZuNqy4ih" Ids="DGdYuEaIIgAOrR77060kqQ,DbVl1dAi7JYOCKfaMOxWSM" />
               <Link Id="K79MLuEcADxORC0Ovwfa6O" Ids="PH0acuiH9AnO0HjhD0D0hf,Hz6uyJAcD0qMNOAT0WuRkZ" />
-              <Link Id="E5RMH2SHZMSQBEgtpnbfND" Ids="CWQqCYogAVyP7eRo3olALN,RYS3CDKCibJOlsiOh9Xmtb" IsHidden="true" />
-              <Link Id="NRWVDvIRczqMOrqEVBDSwe" Ids="RYS3CDKCibJOlsiOh9Xmtb,NOfCuKi61gfM1IAMNPBsqs" />
               <ProcessDefinition Id="ApSdqghd5FFQSaIDYsEM3M" HasStateOut="true">
                 <Fragment Id="B5hhI0i86AcNgJpBFfGzps" Patch="GajRTy1rJJALXycVeDaQz0" Enabled="true" />
                 <Fragment Id="A1bCg1PZqIvNXMgpcu38xW" Patch="EHNCm2LklF1OqgoOrNjc1y" Enabled="true" />
                 <Fragment Id="HFfPiAWP9aeMy86goUff8g" Patch="BiTTuhF62x0NWTvNwI4lvu" Enabled="true" />
-                <Fragment Id="O2rS6m0Jx5CPq2A2nmk0M3" Patch="Uonr9AUI6jjPYqXX4J986z" Enabled="true" />
-                <Fragment Id="Mc9jRggusFONB0xPiXwleo" Patch="IQWuuRSN1q1QEqH5gayxf5" Enabled="true" />
                 <Fragment Id="FWGoCJnrJTWLr7Sa3mv41l" Patch="KC9vltXNoWxOYCJ25XlHOA" Enabled="true" />
                 <Fragment Id="DOijnFDLCkNLrFjOcWZC3t" Patch="FAnUlo2DmhqO3SE0U8Y8Ej" Enabled="true" />
                 <Fragment Id="FYcCnVwCNhANGZTakjabVi" Patch="KvY3rGKD3FwLVGkHuln6iT" Enabled="true" />
+                <Fragment Id="LfihkcSjAqPN5lG8OeSBAf" Patch="NFEPvzrcp1dPwnFwD5PaRO" />
+                <Fragment Id="ITs8KyycJ4VQdgDmM1mCRx" Patch="MraDaIW09GfLfOHjiDa08G" />
               </ProcessDefinition>
               <Patch Id="GajRTy1rJJALXycVeDaQz0" Name="Create" ParticipatingElements="GivbL62w2bFPWgZJujARzP,KQs8oYuAKNdNYXrli6zXDM" />
               <Patch Id="FAnUlo2DmhqO3SE0U8Y8Ej" Name="Compose" ParticipatingElements="LAPlCeGyqjVP8yZotG8ddD">
@@ -21734,23 +21744,28 @@
               <Patch Id="KC9vltXNoWxOYCJ25XlHOA" Name="GetInterpolationServiceFound">
                 <Pin Id="PE4Xs5iPDqEMEnfwITu941" Name="Interpolation Service Found" Kind="OutputPin" />
               </Patch>
-              <Patch Id="IQWuuRSN1q1QEqH5gayxf5" Name="SetBlendingModel" ManuallySortedPins="true">
-                <Pin Id="CKWiUeYwDhBLe3uOYqmuXo" Name="Value Blending Model" Kind="InputPin">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="IBlendingModel" />
-                  </p:TypeAnnotation>
-                </Pin>
-              </Patch>
               <Patch Id="KvY3rGKD3FwLVGkHuln6iT" Name="GetBlendingServiceFound" ParticipatingElements="DWjl4aApvjgP9W8b13npn5">
                 <Pin Id="OSKnz691EtxOoatHDZgcPc" Name="Blending Service Found" Kind="OutputPin" />
               </Patch>
-              <Patch Id="Uonr9AUI6jjPYqXX4J986z" Name="SetTransparencyModel">
-                <Pin Id="CWQqCYogAVyP7eRo3olALN" MergeId="78395" Name="Value Transparency Model" Kind="InputPin">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="IInterpolationModel" />
-                  </p:TypeAnnotation>
-                </Pin>
+              <Slot Id="Llkfpupcx04QKIXbgq18ap" Name="Model">
+                <p:TypeAnnotation p:Type="TypeReference">
+                  <Choice Kind="TypeFlag" Name="CompositingModel" />
+                </p:TypeAnnotation>
+              </Slot>
+              <Patch Id="NFEPvzrcp1dPwnFwD5PaRO" Name="SetModel" ParticipatingElements="I6lX1GE1Me3LAoeT1akIRd,SIUYy66oVy1MmiZziMemn6">
+                <Pin Id="FtQs9QcE3SwPYQ6rT5ved8" MergeId="188842" Name="Model" Kind="InputPin" />
               </Patch>
+              <Patch Id="MraDaIW09GfLfOHjiDa08G" Name="GetModel">
+                <Pin Id="B85otSJKhvmP9KycqLtXck" MergeId="188867" Name="Model" Kind="OutputPin" />
+              </Patch>
+              <Link Id="PBmQ5YbtMbCPrqksRERCZI" Ids="CKxsVgMDLNKMKzxdniqljQ,V1XZ4W5WnZANC1uVfLSfpJ" />
+              <Link Id="Cw8hGM87udaMA3ZnoP6QGU" Ids="FtQs9QcE3SwPYQ6rT5ved8,CKxsVgMDLNKMKzxdniqljQ" IsHidden="true" />
+              <Link Id="Ns64YcdOPdsMPM7REJyBD6" Ids="V1XZ4W5WnZANC1uVfLSfpJ,GvuSsMNm0eYOGpkGMujMzp" />
+              <Link Id="E6jnAHrVWqVNXABKpDfEA0" Ids="GvuSsMNm0eYOGpkGMujMzp,B85otSJKhvmP9KycqLtXck" IsHidden="true" />
+              <Link Id="IK2rQNrxjPNLFg9CpdDaDC" Ids="V1XZ4W5WnZANC1uVfLSfpJ,Sq0Y8tSJ1ucNwCpbD73F3V" />
+              <Link Id="HNzMY14GRRuPhB5NmBTxeS" Ids="V1XZ4W5WnZANC1uVfLSfpJ,FZ4ktVqAgGRL0yQzmn3Ld8" />
+              <Link Id="NcbGrw4t6W0NfO0oOsUDz5" Ids="TlpuEonvFuQQTebNKHFlCV,NOfCuKi61gfM1IAMNPBsqs" />
+              <Link Id="JHv6udqtuB0OE8NHCzhQ4S" Ids="UZ99HFPEMwPQZceVFcoNCD,NWSvzVYIMFGMcEtkwCmk2r" />
             </Patch>
           </Node>
           <!--
